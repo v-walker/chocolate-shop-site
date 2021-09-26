@@ -124,7 +124,11 @@ body {
 
 @media only screen and (max-width: 576px) {
     .parallax {
-        background-size: contain;
+        display: none;
+    }
+
+    .parallax2 {
+        display: none;
     }
 }
 

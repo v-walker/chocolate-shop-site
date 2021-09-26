@@ -11,6 +11,7 @@ champagne - #EACDC2
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* background colors */
@@ -48,17 +49,30 @@ body {
 .text-purple {
     color: #372549;
 }
+.text-purple a{
+    color: #372549;
+}
+.text-purple a:hover{
+    color: #774C60;
+}
 .text-rose {
     color: #774C60;
+}
+.text-rose a{
+    color: #774C60;
+}
+.text-rose a:hover{
+    color: #B75D69;
 }
 .text-accent {
     color: #B75D69;
 }
 .text-accent a{
     color: #B75D69;
+    text-decoration: none;
 }
 .text-accent a:hover{
-    color: white;
+    color: #774C60;
 }
 .text-champagne {
     color: #EACDC2;
@@ -129,4 +143,8 @@ body {
 
 .playfair {
     font-family: 'Playfair Display', serif;
+}
+
+.bold {
+    font-weight: bold;
 }

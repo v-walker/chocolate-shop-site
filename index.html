@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid p-0">
+
+        <nav class="navbar navbar-expand-md bg-black text-champagne sticky-top playfair">
+            <div class="container-fluid">
+                <a class="navbar-nav" href="#"><img src="images/cc_logo.png" width="15%"alt="Chamberlain Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="navbar-toggler-icon text-accent">=</div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ms-xs-2 ms-sm-2 ms-md-0">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ms-xs-2 ms-sm-2 ms-md-0">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item ms-xs-2 ms-sm-2 ms-md-0">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item ms-xs-2 ms-sm-2 ms-md-0">
+                            <a class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="position-relative d-flex">
+
+            <div id="opacity-layer" class="position-absolute w-100 h-100 top-0 z3 bg-black opacity"></div>
+
+            <div id="image-layer" class="position-absolute w-100 h-100 z2">
+                <img src="images/coffee_beans.jpg" alt="">
+            </div>
+
+            <div id="video-layer" class="position-absolute z2 ratio ratio-16x9 d-none d-md-block">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/P_JuQCiKWUc?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1&mute=1&playlist=P_JuQCiKWUc&loop=1&disablekb=1&start=0&end=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+            <div id="text-layer" class="position-absolute top-0 w-100 h-100 z4 d-flex flex-column justify-content-center align-items-center text-white" style="flex-wrap: wrap;">
+                <h1 class="display-2">Chamberlain's</h1>
+                <div class="h5">Gourmet Chocolate Factory</div>                
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="ps-light row m-0 pt-5">
+                <h2 class="col-12 pb-5 d-flex align-items-center justify-content-center display-4 playfair">Seasonal Favorites</h2><hr>
+                <div class="col-md-4  pb-5 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 20rem;">
+                        <img src="images/strawberry.jpg" class="card-img-top" alt="strawberry with chocolate sauce">
+                        <div class="card-body">
+                            <h5 class="card-title playfair">Chocolate-covered Strawberries</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sed laborum, fugiat iure debitis repellat cupiditate, nisi ab voluptas saepe facilis, rem aperiam sunt id. Beatae facere officiis quas reprehenderit!</p>
+                            <a href="#" class="btn btn-dark d-flex justify-content-center">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-5 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 20rem;">
+                        <img src="images/truffle.jpg" class="card-img-top" alt="stylistic truffle atop chocolate pieces">
+                        <div class="card-body">
+                            <h5 class="card-title playfair">Truffle Assortment</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem culpa corrupti harum sit tenetur? Labore architecto, soluta laudantium, hic excepturi natus molestias esse laboriosam, quasi ad pariatur asperiores placeat eveniet!</p>
+                            <a href="#" class="btn btn-dark d-flex justify-content-center">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-5 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 20rem;">
+                        <img src="images/raspberries.jpeg" class="card-img-top" alt="raspberryies beside chocolate pieces">
+                        <div class="card-body">
+                            <h5 class="card-title playfair">Dark Chocolate with Raspberry Filling</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga recusandae, dolorum quo numquam saepe! Unde odit expedita sed quod nemo possimus recusandae ea, adipisci, dicta amet rerum perferendis sit!</p>
+                            <a href="#" class="btn btn-dark d-flex justify-content-center">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parallax"></div>
+
+            <div class="ps-champagne row m-0 pt-5">
+                <div class="col-md-6 p-5 d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="display-4 playfair pb-3">Our Story<hr></h2>
+                    <article class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio blanditiis velit sed doloremque quam esse sequi. Distinctio, ab modi consectetur repellat quod sequi laboriosam, omnis aliquid perferendis recusandae accusamus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem molestias cupiditate numquam consequatur ea veniam suscipit, doloribus sapiente labore earum ab ipsam voluptatem aliquid obcaecati commodi at iusto perspiciatis?
+                    </article>
+                </div>
+                <div class="col-md-6 p-5 d-flex justify-content-center">
+                    <img src="images/chocolate_nibs.jpg" width="80%" height="auto" alt="">
+                </div>
+                
+            </div>
+
+            <div class="parallax2"></div>
+
+            <div class="ps-light row m-0 pt-5">
+                <div class="col-md-6 p-md-5 d-flex justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.8774729866122!2d-84.31763758482072!3d34.02135592680461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50b2b3bbe559d%3A0xe6311d6ecfbcd9a3!2sChamberlains%20Chocolate%20Factory%20and%20Cafe!5e0!3m2!1sen!2sus!4v1632670900745!5m2!1sen!2sus" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-6 p-5 d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="display-4 playfair pb-3">Contact Us<hr></h2>
+                    <div class="row d-flex flex-column lead">
+                        <div class="col d-flex pb-3">
+                            <div class="pe-3 col-4"><i class="fas fa-compass"></i>  Location: </div>
+                            <div>1575 Old Alabama Rd, Suite 205<br>
+                                Roswell, GA 30076</div>
+                        </div>
+                        <div class="col d-flex pb-3">
+                            <div class="pe-3 col-4"><i class="fas fa-phone"></i>  Phone: </div>
+                            <div>(678) 728-0100</div>
+                        </div>
+                        <div class="col d-flex pb-3">
+                            <div class="pe-3 col-4"><i class="fas fa-paper-plane"></i>  Email:</div>
+                            <div>info@chamberlainschocolate.com</div>
+                        </div>
+                        <div class="col d-flex pb-3">
+                            <div class="pe-3 col-4"><i class="far fa-calendar-alt"></i>  Hours:</div>
+                            <div>Tues.-Sat. 10:00am - 4:00pm</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="ps-rose">
+
+            </div>
+
+            <div class="ps-light">
+
+            </div>
+
+            <div class="ps-rose">
+
+            </div>
+
+        </main>
+
+        <footer>
+            
+        </footer>
+    
+    </div>
+    <script src="https://kit.fontawesome.com/b5578a43de.js" crossorigin="anonymous"></script>
+</body>
+</html>

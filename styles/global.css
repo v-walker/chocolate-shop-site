@@ -1,0 +1,132 @@
+/* color palette 
+
+deep purple - #1A1423
+purple - #372549
+rose - #774C60
+pink - #B75D69 (accent)
+champagne - #EACDC2
+
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background colors */
+
+.bg-black {
+    background-color: rgb(28, 26, 26);
+}
+
+.bg-deep-purple {
+    background-color: #1A1423;
+}
+
+.bg-purple {
+    background-color: #372549;
+}
+
+.bg-rose {
+    background-color: #774C60;
+}
+
+.bg-accent {
+    background-color: #B75D69;
+}
+
+.bg-champagne {
+    background-color: #EACDC2;
+}
+
+/* font colors */
+
+.text-deep-purple {
+    color: #1A1423;
+}
+
+.text-purple {
+    color: #372549;
+}
+.text-rose {
+    color: #774C60;
+}
+.text-accent {
+    color: #B75D69;
+}
+.text-accent a{
+    color: #B75D69;
+}
+.text-accent a:hover{
+    color: white;
+}
+.text-champagne {
+    color: #EACDC2;
+}
+.text-champagne a{
+    color: #EACDC2;
+}
+.text-champagne a:hover {
+    color: white
+}
+
+/* page sections */
+.ps-light {
+    background-color: white;
+    /* height: 550px; */
+    width: 100%;
+}
+
+.ps-rose {
+    background-color: #774C60;
+    /* height: 550px; */
+    width: 100%;
+}
+
+.ps-champagne {
+    background-color: #EACDC2;
+}
+
+.parallax {
+    background-image: url("https://www.loveandoliveoil.com/wp-content/uploads/2018/12/nutella-mousse-cake-FEAT2.jpg");
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://www.hersheyland.com/content/dam/hersheyland/en-us/recipes/recipe-images/57-chocolate-covered-strawberries.jpg");
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* font-sizing */
+
+.f1 {
+    font-size: 4rem;
+}
+
+.f2 {
+    font-size: 3rem;
+}
+
+.f3 {
+    font-size: 2rem;
+}
+
+.f4 {
+    font-size: 1.5rem;
+}
+
+/* fonts */
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}

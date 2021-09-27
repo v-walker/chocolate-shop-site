@@ -122,16 +122,6 @@ body {
     background-size: cover;
 }
 
-@media only screen and (max-width: 576px) {
-    .parallax {
-        display: none;
-    }
-
-    .parallax2 {
-        display: none;
-    }
-}
-
 /* font-sizing */
 
 .f1 {
@@ -150,6 +140,10 @@ body {
     font-size: 1.5rem;
 }
 
+.f5 {
+    font-size: 1.25rem;
+}
+
 /* fonts */
 
 .playfair {
@@ -158,4 +152,20 @@ body {
 
 .bold {
     font-weight: bold;
+}
+
+/* media query */
+
+@media only screen and (max-width: 576px) {
+    .parallax {
+        display: none;
+    }
+
+    .parallax2 {
+        display: none;
+    }
+
+    .f5 {
+        font-size: 1rem;
+    }
 }
